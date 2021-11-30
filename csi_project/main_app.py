@@ -2,7 +2,6 @@ import io
 from typing import Any, Dict, Tuple
 from flask.helpers import send_file
 
-from werkzeug.datastructures import ImmutableDict
 from csi_project.plots import (
     plot_acidentes_per_month,
     plot_acidentes_versus_vendas,
