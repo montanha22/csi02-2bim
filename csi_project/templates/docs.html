@@ -32,7 +32,7 @@
 <h6>Requisição - exemplo em Python</h6>
 <pre><code class="language-python">
 import requests
-response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/acidentes",
+response  = requests.get("https://csi-project-2bim.herokuapp.com/api/v1/acidentes",
                             data=dict(start_month="2019-01", end_month="2019-02"))
 </code></pre>
 <p>O retorno é uma lista de dicionários. Cada dicionário representa um acidente. exemplo:</p>
@@ -53,7 +53,7 @@ response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/acidente
 <h6>Requisição - exemplo em Python</h6>
 <pre><code class="language-python">
 import requests
-response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/vendas",
+response  = requests.get("https://csi-project-2bim.herokuapp.com/api/v1/vendas",
                             data=dict(start_month="2019-01", end_month="2019-02"))
 </code></pre>
 <p>O retorno é uma lista de dicionários. Cada dicionário representa as vendas de um mês. exemplo:</p>
@@ -72,7 +72,7 @@ response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/vendas",
 <h6>Requisição - exemplo em Python</h6>
 <pre><code class="language-python">
 import requests
-response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/grafico-vendas-por-mes",
+response  = requests.get("https://csi-project-2bim.herokuapp.com/api/v1/grafico-vendas-por-mes",
                          data=dict(start_month="2019-01", end_month="2019-02"))
 </code></pre>
 <p>O retorno é uma imagem de tipo <code>image/jpeg</code>. Pode-se recuperar a imagem com o código:</p>
@@ -87,7 +87,7 @@ image.show()
 <h6>Requisição - exemplo em Python</h6>
 <pre><code class="language-python">
 import requests
-response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/grafico-acidentes-fatais-por-mes",
+response  = requests.get("https://csi-project-2bim.herokuapp.com/api/v1/grafico-acidentes-fatais-por-mes",
                          data=dict(start_month="2019-01", end_month="2019-02"))
 </code></pre>
 <p>O retorno é uma imagem de tipo <code>image/jpeg</code>.</p>
@@ -96,7 +96,7 @@ response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/grafico-
 <h6>Requisição - exemplo em Python</h6>
 <pre><code class="language-python">
 import requests
-response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/grafico-acidentes-por-mes",
+response  = requests.get("https://csi-project-2bim.herokuapp.com/api/v1/grafico-acidentes-por-mes",
                          data=dict(start_month="2019-01", end_month="2019-02"))
 </code></pre>
 <p>O retorno é uma imagem de tipo <code>image/jpeg</code>.</p>
@@ -106,7 +106,7 @@ response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/grafico-
 <h6>Requisição - exemplo em Python</h6>
 <pre><code class="language-python">
 import requests
-response  = requests.get("https://csi-project-1bim.herokuapp.com/api/v1/grafico-acidentes-versus-vendas",
+response  = requests.get("https://csi-project-2bim.herokuapp.com/api/v1/grafico-acidentes-versus-vendas",
                          data=dict(start_month="2019-01", end_month="2019-02"))
 </code></pre>
 <p>O retorno é uma imagem de tipo <code>image/jpeg</code>.</p>
